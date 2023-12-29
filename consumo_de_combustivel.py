@@ -44,7 +44,3 @@ fig.update_xaxes(ticks= "outside",
                  ticklabelmode= "period", 
                  tickcolor= "black", 
                  ticklen=10)
-
-with open("combustivel_notion.png", "wb") as f:
-    f.write(scope.transform(fig, format="png"))
-fig.show()
