@@ -17,6 +17,7 @@ scope = PlotlyScope(
     # plotlyjs="/path/to/local/plotly.js",
 )
 
+app = Dash(__name__)
 server = app.server 
 
 notion_database_url = "https://www.notion.so/leandroconp/6f555d9ed8224fba9fbf8755a453b47b?v=e282f57e9d394e59a2a2eaf9f7ec8b11"
