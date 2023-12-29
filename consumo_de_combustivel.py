@@ -17,6 +17,9 @@ scope = PlotlyScope(
 )
 
 
+app = Dash(__name__)
+server = app.server 
+
 notion_database_url = "https://www.notion.so/leandroconp/6f555d9ed8224fba9fbf8755a453b47b?v=e282f57e9d394e59a2a2eaf9f7ec8b11"
 api_key = "secret_vOnrTV4HJQCTuG9OadpiHeOT4tIVQFdx55kAcAZ8jXm"
 
