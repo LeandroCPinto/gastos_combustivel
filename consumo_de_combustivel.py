@@ -10,6 +10,7 @@ import numpy as np
 import pandas as pd 
 import plotly.express as px
 from kaleido.scopes.plotly import PlotlyScope
+from dash import Dash, dcc, html, Input, Output
 
 scope = PlotlyScope(
     plotlyjs="https://cdn.plot.ly/plotly-latest.min.js",
